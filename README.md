@@ -6,7 +6,7 @@ Data Cleaning and transformation
       select price column --> Transform-->Statistics-->Median.
       Transform-->Replace values
       Missing value replaced by Median value 130.
-   • If there are products with missing categories, propose a strategy to impute or deal with these missing values effectively.
+   <br>• If there are products with missing categories, propose a strategy to impute or deal with these missing values effectively.
      <br>Select Category column-->Transform-->Replace Value-->Unknown.
 # 2) Correcting Inconsistent Data:
     • Identify any inconsistent text formats present in the "Product Name" column.
