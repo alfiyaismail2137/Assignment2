@@ -15,7 +15,8 @@ Data Cleaning and transformation
   <br> • Identify any typos present in the "Category" column.
   <br> while Checking Category column There have spelling Mistakes. 'Electronics' is incorrectly written as'Electroni'.
   <br> • Use the find and replace function to standardize the text formats in the "Product Name" column and fix any typos or misspellings in the "Category" column.
-   <br>The typos are corrected using Find and replace.select all go to home tab-->Find select-->Find what -->Electroni -->replace with : Electronics -->Replace.
+   <br>The typos are corrected using Find and replace function. Select all go to Home tab-->Find select-->Find what -->Electroni -->
+   replace with : Electronics --> Replace.
    <br> Like this the Category column based on Product name  corrected using find and replace function.The Unknown value replaced.
 # 3) Removing Duplicates:
    • Identify any duplicate rows within the dataset based on the entirety of each row, and remove them if any.
