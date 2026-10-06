@@ -36,6 +36,7 @@ Data Cleaning and transformation
    • Apply data bar or color scales conditional formatting in the "Price" column.
    <br>Select Price column--> Home -->Conditional Formatting -->Color Scales.
   <br> • Create a custom rule for conditional formatting in the "Category" column to highlight cells where the category is "Electronics."
-    <br>Select Category Column-->Home-->Conditional Formatting-->New Rule-->Select Format only cells that contain-->Edit with rule description-->Cell Value-->Specific Text-->Containing-->Electronics-->Format option-->Select color you want--> Click OK --> OK .
+    <br>Select Category Column-->Home-->Conditional Formatting-->New Rule-->Select Format only cells that contain-->Edit with rule description-->
+    Cell Value-->Specific Text-->Containing-->Electronics-->Format option-->Select color you want--> Click OK --> OK .
    
    
