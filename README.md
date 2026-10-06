@@ -2,7 +2,7 @@
 Data Cleaning and transformation
 # 1) Handling Missing Values:
    • Check for missing values in the 'Price' column. How would you handle products with missing price information?
-      <br>find median and median through following steps :
+      <br>Find median  through following steps :
       <br>select price column --> Transform-->Statistics-->Median.
       <br>Transform-->Replace values.
       <br>Missing value replaced by Median value 130.
