@@ -12,9 +12,9 @@ Data Cleaning and transformation
    • Identify any inconsistent text formats present in the "Product Name" column.
     <br> While checking Product Name column Some Products start with small letter.
     <br> Transform --> ABC Format -->Capitalize Each Word.
-   • Identify any typos present in the "Category" column.
+  <br> • Identify any typos present in the "Category" column.
   <br> while Checking Category column There have spelling Mistakes. 'Electronics' is incorrectly written as'Electroni'.
-   • Use the find and replace function to standardize the text formats in the "Product Name" column and fix any typos or misspellings in the "Category" column.
+  <br> • Use the find and replace function to standardize the text formats in the "Product Name" column and fix any typos or misspellings in the "Category" column.
    <br>The typos are corrected using Find and replace.select all go to home tab-->Find select-->Find what -->Electroni -->replace with : Electronics -->Replace.
    <br> Like this the Category column based on Product name  corrected using find and replace function.The Unknown value replaced.
 # 3) Removing Duplicates:
@@ -25,17 +25,17 @@ Data Cleaning and transformation
   <br> Create a column named Product_Updated and add Year by using the following formula.=LEFT([@[Product ID]],6)&"-2026"& "-" &RIGHT([@[Product ID]],2).
    Create 2 columns named Manufacturing Date and Country Code. Entering values to Manufacturing Date through this formula  =LEFT([@[Product_Updated]],11).
    Entering values to Country Code  through this formula =RIGHT([@[Product_Updated]],2).
-   • Merge the "Brand Name" and "Product Name" columns into one column named "Product Brand".
+  <br> • Merge the "Brand Name" and "Product Name" columns into one column named "Product Brand".
    <br>Create new column named Product Brand and apply =[@[Product Name]]&" "&[@[Brand Name]] this formula for concatination.
    # 5) Number Formatting:
    • Format the data type of the "Price" column to currency format. 
    <br>Select Price column-->Home -->Number Format -->Currency.
-   • Format the "Manufacturing Date" column to display dates in the "DD-MM-YYYY " format. 
+  <br> • Format the "Manufacturing Date" column to display dates in the "DD-MM-YYYY " format. 
    <br>Select Manufacturing Date--> Home-->Number Format-->Date
   # 6) Conditional Formatting:
    • Apply data bar or color scales conditional formatting in the "Price" column.
    <br>Select Price column--> Home -->Conditional Formatting -->Color Scales.
-   • Create a custom rule for conditional formatting in the "Category" column to highlight cells where the category is "Electronics."
+  <br> • Create a custom rule for conditional formatting in the "Category" column to highlight cells where the category is "Electronics."
     <br>Select Category Column-->Home-->Conditional Formatting-->New Rule-->Select Format only cells that contain-->Edit with rule description-->Cell Value-->Specific Text-->Containing-->Electronics-->Format option-->Select color you want--> Click OK --> OK .
    
    
