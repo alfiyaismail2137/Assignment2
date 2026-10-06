@@ -15,6 +15,7 @@ Data Cleaning and transformation
     • Use the find and replace function to standardize the text formats in the "Product Name" column and fix any typos or misspellings in the "Category" column.
 # 3) Removing Duplicates:
    • Identify any duplicate rows within the dataset based on the entirety of each row, and remove them if any.
+   Data-->Remove Duplicates
 # 4) Splitting and Merging Data:
    • Split the "Product ID" column into two separate columns for " Manufacturing Date" and "Country Code". Remove unnecessary characters, if any.
    • Merge the "Brand Name" and "Product Name" columns into one column named "Product Brand".
