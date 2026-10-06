@@ -4,16 +4,19 @@ Data Cleaning and transformation
    • Check for missing values in the 'Price' column. How would you handle products with missing price information?
       <br>find median and median through following steps :
       <br>select price column --> Transform-->Statistics-->Median.
-      Transform-->Replace values.
-      Missing value replaced by Median value 130.
+      <br>Transform-->Replace values.
+      <br>Missing value replaced by Median value 130.
    <br>• If there are products with missing categories, propose a strategy to impute or deal with these missing values effectively.
      <br>Select Category column-->Transform-->Replace Value-->Unknown.
 # 2) Correcting Inconsistent Data:
-    • Identify any inconsistent text formats present in the "Product Name" column.
-       <br> While checking Product Name column Some Products start with small letter.
-       <br> Transform --> ABC Format -->Capitalize Each Word.
-    • Identify any typos present in the "Category" column.
-    • Use the find and replace function to standardize the text formats in the "Product Name" column and fix any typos or misspellings in the "Category" column.
+   • Identify any inconsistent text formats present in the "Product Name" column.
+    <br> While checking Product Name column Some Products start with small letter.
+    <br> Transform --> ABC Format -->Capitalize Each Word.
+   • Identify any typos present in the "Category" column.
+  <br> while Checking Category column There have spelling Mistakes. 'Electronics' is incorrectly written as'Electroni'.
+   • Use the find and replace function to standardize the text formats in the "Product Name" column and fix any typos or misspellings in the "Category" column.
+   <br>The typos are corrected using Find and replace.select all go to home tab-->Find select-->Find what -->Electroni -->replace with : Electronics -->Replace.
+   <br> Like this the Category column based on Product name  corrected using find and replace function.The Unknown value replaced.
 # 3) Removing Duplicates:
    • Identify any duplicate rows within the dataset based on the entirety of each row, and remove them if any.
    <br> Select ctrl+A to select all data ,then click  Data- -> Remove Duplicates . select Product ID and Product Name Then click OK . we got a message 3 duplicate values found and removed.
